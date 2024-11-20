@@ -5,7 +5,8 @@ data class Perguntas(
     val titulo: String,
     val imagem: Int,
     val respostas: List<String>,
-    val respostaCerta: Int
+    val respostaCerta: Int,
+    val justificativa: String
 )
 
 fun validarResposta(pergunta: Perguntas, respostaUsuario: Int): Boolean {

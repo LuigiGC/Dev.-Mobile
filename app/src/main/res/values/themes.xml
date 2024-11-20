@@ -2,8 +2,19 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.LogicaQuestions" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/color16</item>
+        <item name="colorPrimaryVariant">@color/color17</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/color19</item>
+        <item name="colorSecondaryVariant">@color/color18</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
     </style>
 
     <style name="Theme.LogicaQuestions" parent="Base.Theme.LogicaQuestions" />
+
+    <style name="ButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/color10</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
