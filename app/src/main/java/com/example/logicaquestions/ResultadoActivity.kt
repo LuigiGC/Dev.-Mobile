@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class Resultado : AppCompatActivity() {
+class ResultadoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
@@ -23,6 +23,11 @@ class Resultado : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
+        }
+        val btnMostrarPerguntas: Button = findViewById(R.id.btnMostrarPerguntas)
+        btnMostrarPerguntas.setOnClickListener {
+            val intent = Intent(this, PerguntasRespostasActivity::class.java)
+            startActivity(intent)
         }
     }
 

@@ -13,10 +13,13 @@
         android:theme="@style/Theme.LogicaQuestions"
         tools:targetApi="31">
         <activity
+            android:name=".PerguntasRespostasActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerguntaActivity"
             android:exported="false" />
         <activity
-            android:name=".Resultado"
+            android:name=".ResultadoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

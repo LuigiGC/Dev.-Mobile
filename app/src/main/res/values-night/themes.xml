@@ -9,6 +9,10 @@
         <item name="colorSecondaryVariant">@color/color18</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:navigationBarColor">@color/color20</item>
+        <item name="android:statusBarColor">@color/color20</item>
+        <item name="android:textColor">@color/color1</item>
+
     </style>
 
     <style name="ButtonStyle" parent="Widget.Material3.Button">

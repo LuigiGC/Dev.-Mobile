@@ -11,7 +11,7 @@ object Constante {
             R.drawable.pergunta1,
             listOf("1", "2", "3", "IndexError", "None"),
             2,
-           "Justificativa: O índice -1 em listas do Python acessa o último elemento da lista. Logo, o valor de x[-1] é 3"
+           "O índice -1 em listas do Python acessa o último elemento da lista. Logo, o valor de x[-1] é 3"
         )
         listaDePerguntas.add(pergunta1)
 

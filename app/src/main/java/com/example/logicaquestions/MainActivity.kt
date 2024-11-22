@@ -6,10 +6,12 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES) // NÃO CONSEGUI ARRUMAR O CODIGO LIGHT PARA FICAR IGUAL O NIGHT ENTÃO SO VAI USAR O NIGHT.
         setContentView(R.layout.activity_main)
 
         val btnLogo: ImageButton = findViewById(R.id.btnLogo)

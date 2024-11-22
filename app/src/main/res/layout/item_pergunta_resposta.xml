@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTituloPR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título da Pergunta"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivImagemPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="Imagem da Pergunta" />
+
+    <TextView
+        android:id="@+id/tvRespostas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Respostas"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvJustificativa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Justificativa"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

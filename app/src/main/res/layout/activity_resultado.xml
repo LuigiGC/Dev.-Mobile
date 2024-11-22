@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:background="@color/color16"
     android:layout_height="match_parent"
-    tools:context=".Resultado">
+    tools:context=".ResultadoActivity">
 
     <TextView
         android:id="@+id/tvMensagem"
@@ -48,6 +48,20 @@
         android:textColor="@color/color16"
         android:backgroundTint="@color/color10"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNivelConhecimento"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <Button
+        android:id="@+id/btnMostrarPerguntas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Mostrar Perguntas e Respostas"
+        android:textColor="@color/color16"
+        android:backgroundTint="@color/color10"
+        app:layout_constraintBottom_toTopOf="@id/btnRefazerQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvNivelConhecimento"

@@ -87,7 +87,7 @@ class PerguntaActivity : AppCompatActivity() {
             startActivity(intent)
             finish() // Fecha a Activity atual
         } else {
-            val intent = Intent(this, Resultado::class.java)
+            val intent = Intent(this, ResultadoActivity::class.java)
             intent.putExtra("PONTUACAO", pontuacao)
             startActivity(intent)
             finish() // Fecha a Activity atual
