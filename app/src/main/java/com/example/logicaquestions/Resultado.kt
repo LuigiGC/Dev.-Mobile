@@ -1,6 +1,8 @@
 package com.example.logicaquestions
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,6 +17,13 @@ class Resultado : AppCompatActivity() {
 
         val tvNivelConhecimento: TextView = findViewById(R.id.tvNivelConhecimento)
         tvNivelConhecimento.text = getNivelConhecimento(pontuacao)
+
+        val btnRefazerQuiz: Button = findViewById(R.id.btnRefazerQuiz)
+        btnRefazerQuiz.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     private fun getNivelConhecimento(pontuacao: Int): String {
